@@ -58,3 +58,15 @@ input{
     cursor: pointer;
     margin-left: 10px;
 }
+.organizarEventos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: burlywood;
+}
+h3{
+    display: none;
+    font-size: 13px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
