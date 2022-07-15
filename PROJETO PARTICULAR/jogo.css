@@ -1,0 +1,45 @@
+body{
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+h1{
+    color: white;
+    font-family: cursive;
+}
+.exp{
+    font-size: 14px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    display: inline-flex;
+    padding: 20px;
+    flex-direction: column;
+    border: 2px solid rgb(107, 10, 10);
+    background-color: rgb(226, 218, 218);
+    margin-top: 30px;
+    border-radius: 10px;
+}
+input{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 200px;
+    outline: 0;
+    font-size: 15px;
+    
+}
+.btn_verificar{
+    width: 200px;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}

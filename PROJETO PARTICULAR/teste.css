@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+.conteiner{
+    display: inline-block;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: darkgoldenrod;
+    width: 400px;
+    margin-right: 0;
+    height: 95vh;
+    z-index: 999;
+}
+.cadastro{
+    border: 2px solid black;
+    padding: 20px;
+    display: inline-block;
+    width: 400px;
+    background-color: #ccc;
+}
+input{
+    outline: 0;
+    padding: 10px;
+}
+button{
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    width: 120px;
+    padding: 8px;
+}
+.btn_listar{
+    margin-top: 10px;
+    width: 120px;
+    padding: 8px;
+    cursor: pointer;
+}
+.principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+
+}
+.listagem{
+    color: white;
+}
+.tamanho{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
