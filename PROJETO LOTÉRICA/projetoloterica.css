@@ -1,0 +1,116 @@
+body{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.tela_principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 20px;
+}
+label{
+    margin-right: 0;
+    margin-left: 5px;
+}
+input{
+    padding: 10px;
+    width: 80px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    border: 2px solid black;
+}
+legend{
+    background-color: black;
+    color: white;
+}
+.field{
+    display: none;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.novo{
+    display: none;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.novoLoto{
+    display: none;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.organizar{
+    display: flex;
+    flex: 1;
+}
+.organizarButton{
+    display: flex;
+    flex: 1;
+}
+.jogos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    border: 3px solid black;
+    width: 200px;
+    padding: 30px;
+    background-color: aliceblue;
+    margin-bottom: 30px;
+}
+.megaSena{
+    padding: 20px;
+    border: 2px solid black;
+    cursor: pointer;
+    font-weight: bold;
+}
+.lotofacil{
+    padding: 20px;
+    margin-top: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btnLimpaAposta{
+    display: none;
+    padding: 20px;
+    margin-top: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+.btnSortear{
+    display: none;
+    width: 150px;
+    height: 50px;
+    margin-right: 10px;
+    border: 2px solid black;
+}
+.btnLimpar{
+    display: none;
+    width: 150px;
+    height: 50px;
+    margin-right: 10px;
+    border: 2px solid black;
+}
+.btnClear{
+    display: none;
+    width: 150px;
+    height: 50px;
+    border: 2px solid black;
+}
+.btnNovoSortear{
+    display: none;
+    width: 150px;
+    height: 50px;
+    margin-right: 10px;
+    border: 2px solid black;
+}
+.btnNovoLimpar{
+    display: none;
+    width: 150px;
+    height: 50px;
+    border: 2px solid black;
+}

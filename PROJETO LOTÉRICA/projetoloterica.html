@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de JavaScript</title>
+    <link rel="stylesheet" href="projetoloterica.css">
+    
+</head>
+<body>
+    <div class="tela_principal">
+        <h1 id="titulo">LOTÉRICAS</h1><br/><br/>
+    </div>
+    <div class="organizar">
+        <fieldset class="field">
+            <legend>MEGA SENA</legend>
+            <label>1º:</label>
+            <input class="number1" type="text" disabled>
+            <label>2º:</label>
+            <input class="number2" type="text" disabled>
+            <label>3º:</label>
+            <input class="number3" type="text" disabled>
+            <label>4º:</label>
+            <input class="number4" type="text" disabled>
+            <label>5º:</label>
+            <input class="number5" type="text" disabled>
+            <label>6º:</label>
+            <input class="number6" type="text" disabled>
+        </fieldset>
+        <fieldset class="novo"></fieldset>
+    </div>
+    <div class="organizarButton">
+        <button class="btnSortear" onclick="sorteio()">SORTEAR</button>
+        <button class="btnLimpar" onclick="listar()">GERAR CAMPO</button>
+        <button class="btnClear" onclick="Clear()">LIMPAR</button>
+    </div>
+    <div class="jogos">
+        <button onclick="btnMega()" class="megaSena">MEGA SENA</button>
+        <button onclick="btnLoto()" class="lotofacil">LOTOFÁCIL</button>
+        <button onclick="btnLimparApostas()" class="btnLimpaAposta">LIMPAR APOSTAS</button>
+    </div>
+    <div class="organizar">
+        <fieldset class="novoLoto"></fieldset>
+    </div>
+    <div class="organizarButton">
+        <button class="btnNovoSortear" onclick="sortearLoto()">SORTEAR</button>
+        <button class="btnNovoLimpar" onclick="limparLoto()">LIMPAR</button>
+    </div>
+    <script src="projetoloterica.js"></script>
+</body>
+</html>
