@@ -32,10 +32,13 @@ document.querySelector(".container").addEventListener('keyup', ()=>{
     inputs.forEach(function (event, index){
         numeroSoma[index] = event.value;
         
-        //soma += numeroSoma[0] + numeroSoma[1] + numeroSoma[2];
+        //soma = numeroSoma.slice(0, 3);
+        
     });
-    
-    linhaL1.innerHTML = soma;//VERIFICAR ESSA LINHA
+    soma = numeroSoma;
+    //console.log("ESTOU AQUI: "+soma);
+    console.log("SOMA: "+eval(numeroSoma));
+    //linhaL1.innerHTML = soma;//VERIFICAR ESSA LINHA
 });
 
 
